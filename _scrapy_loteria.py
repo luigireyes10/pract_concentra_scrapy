@@ -49,4 +49,4 @@ class LoteriaSpider(Spider):
             yield item.load_item() # Hago Yield de la informacion para que se escriban los datos en el archivo
 
 # EJECUCION EN TERMINAL:
-# scrapy runspider 3_stackoverflow.py -o resultados.csv -t csv
+# scrapy runspider _scrapy_loteria.py -o resultados.csv -t csv
